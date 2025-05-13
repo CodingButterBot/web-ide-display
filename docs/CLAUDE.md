@@ -91,6 +91,25 @@ The MCP server translates AI instructions into WebSocket messages that the front
 - `renameFileOrDirectory(oldPath, newPath)`
 - `listDirectory(path)`
 
+## Issue and Project Management
+
+### Issue Guidelines
+
+- Create detailed, focused issues for each task
+- Follow proper issue templates when available
+- Always assign issues to yourself when working on them
+- Include clear acceptance criteria in each issue
+- Reference related issues when applicable
+
+### GitHub Project Board Usage
+
+- All work must be tracked through GitHub Projects
+- New issues start in "Todo" status
+- Move issues to "In Progress" when actively working on them 
+- Only work on one issue at a time for focus
+- Move issues to "Done" when fully completed and reviewed
+- Include relevant labels for categorization
+
 ## Git Workflow
 
 - Create feature branches from `main`: `git checkout -b feature/<short-desc>`
@@ -107,3 +126,4 @@ The MCP server translates AI instructions into WebSocket messages that the front
 - Keep PRs small and focused on a single task
 - Add tests for new functionality
 - Ensure security considerations for any file operations
+- Always follow the development guidelines in `DEVELOPMENT_GUIDELINES.md`

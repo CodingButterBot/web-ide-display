@@ -1,0 +1,16 @@
+{
+  "extends": "typescript-config/base.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": ".",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "target": "ES2020",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "."
+  },
+  "include": ["."],
+  "exclude": ["dist", "node_modules", "**/*.test.ts"]
+}
